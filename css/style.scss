@@ -1,0 +1,196 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: linear-gradient(#000,#202020, #A0A0A0);
+}
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-size: 25px;
+        &:hover {
+            color: red;
+        }
+      }
+  }
+  #DUGME {
+      display: none;
+      font-size: 30px;
+  }
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    border-bottom: #ff3333 1px solid;
+}
+#Omot {
+    width: 100%;
+    height: inherit;
+    align-items: center;
+    display: flex;
+}
+#ime {
+    width: 47%;
+    padding-left: 50px;
+    h2 {
+        color: white;
+    }
+}
+nav {
+    width: 50%;
+    font-size: 20px;
+    ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        a {
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+}
+#sredina {
+    width: 100%;
+    height: 500px;
+    background: {
+        image: url("../images/pozadinaaa.jpg");
+        repeat: no-repeat;
+        position: center;
+        size: cover;
+    }
+    border-bottom: #ff3333 1px solid;
+}
+#text {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    padding-top: 185px;
+    h1 {
+        font-size: 50px;
+        color: white;
+    }
+}
+main {
+    width: 100%;
+    height: 300px;
+    margin: 10px 0px;
+}
+#wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#slika {
+    width: 30%;
+    height: 300px;
+    img {
+        height: 300px;
+        width: 100%;
+    }
+}
+#about {
+    width: 50%;
+    height: 300px;
+    h3 {
+        font-size: 30px;
+        color: white;
+        margin: 20px 0px;
+    }
+    p {
+        color: white;
+        font-size: 18px;
+        width: 80%;
+    }
+}
+#NASLOV {
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    border-top: #ff3333 1px solid;
+    color: white;
+}
+#SKILLS {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: #ff3333 1px solid;
+    .skil {
+        width: 10%;
+        height: 200px;
+        border-right: #ff3333 1px solid;
+        padding-right: 10px;
+        img {
+            height: 150px;
+            width: 100%;
+        }
+    }
+}
+#SKILLS .skil:last-child {
+    border:none;
+}
+figcaption {
+    margin-left: 45px;
+    color: white;
+}
+#contact {
+    text-align: center;
+    height: 50px;
+    padding-top: 20px;
+    color: white;
+}
+#forma_glavna {
+    align-items: center;
+    border-top: #ff3333 1px solid;
+} 
+form{
+    background: {
+        image: url("../images/pozadina.jpg");
+        repeat: no-repeat;
+        size: cover;
+        position: center;
+    }
+    table {
+        font-size: 30px;
+        .forma_text {
+            font-size: 25px;
+            margin: 10px;
+        }
+        td {
+            color: white;
+        }
+    }
+}
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+}
+#copyright {
+    width: 100%;
+    height: inherit;
+    p {
+        color: white;
+        text-align: center;
+        padding-top: 20px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        margin-left: 10px;
+    }
+}
